@@ -2,5 +2,10 @@ package model;
 
 public enum Nacionalidad {
 	ARGENTINA,
-    BRASIL
+    BRASIL,
+    URUGUAY,
+    COLOMBIA,
+    CHILE,
+    VENEZUELA,
+    PARAGUAY
 }

@@ -24,6 +24,19 @@ public class Jugador {
 		this.clubActual = clubActual;
 		System.out.println("JUGADOR " + this.nombre + " CREADO CON EXITO");
 	}
+
+	public Posicion getPosicion() {
+		return posicion;
+	}
+
+	@Override
+	public String toString() {
+		return "Jugador [nombre=" + nombre + ", apellido=" + apellido + ", edad=" + edad + ", posicion=" + posicion
+				+ ", nacionalidad=" + nacionalidad + ", valorMercado=" + valorMercado + ", clubActual=" + clubActual
+				+ "]";
+	}
+	
+	
 	
 	
 
